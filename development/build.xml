@@ -32,7 +32,10 @@
   <include name="${lib}/**/*.jar"/>
   </fileset> -->
   </jar>
-  <copy todir=../deployment>
+  <move todir="../deployment">
+  <!--<include name="*.jar" />-->
+  <file name="MiniCopier.jar"/>
+  </move>
 </target>
 
 <target name="clean" description="reset">
