@@ -32,7 +32,6 @@
   <include name="${lib}/**/*.jar"/>
   </fileset> -->
   </jar>
-  <copy todir=../deployment>
 </target>
 
 <target name="clean" description="reset">
