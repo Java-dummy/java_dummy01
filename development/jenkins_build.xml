@@ -34,7 +34,7 @@
   </jar>
   <move todir="../deployment">
   <!--<include name="*.jar" />-->
-  <file name="MiniCopier.jar"/>
+  <file name="development/MiniCopier.jar"/>
   </move>
 </target>
 
