@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="YASIN-PC" name="minicopier.TransferTask" skipped="0" tests="1" time="0.0" timestamp="2017-08-13T13:47:19">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="coverage.summaryxml.dir" value="reports/cobertura-summary-xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.8.0_144\jre\classes" />
+    <property name="reports.html.dir" value="reports/junit-html" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="test.failed" value="true" />
+    <property name="ant.home" value="c:/apache-ant-1.10.1-bin/apache-ant-1.10.1" />
+    <property name="java.runtime.version" value="1.8.0_144-b01" />
+    <property name="cobertura.dir" value="." />
+    <property name="user.name" value="YASIN" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_144\jre\bin" />
+    <property name="reports.dir" value="reports" />
+    <property name="ant.project.default-target" value="coverage" />
+    <property name="ant.project.name" value="cobertura.examples.basic" />
+    <property name="ant.file.cobertura.examples.basic" value="c:\Users\YASIN\github\java_dummy01\cobertura_V1\build.xml" />
+    <property name="java.version" value="1.8.0_144" />
+    <property name="coverage.html.dir" value="reports/cobertura-html" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="../develpment/classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="c:\Program Files\Java\jdk1.8.0_144\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file.type.cobertura.examples.basic" value="file" />
+    <property name="ant.file" value="c:\Users\YASIN\github\java_dummy01\cobertura_V1\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.144-b01" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="c:/apache-ant-1.10.1-bin/apache-ant-1.10.1/lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="reports.xml.dir" value="reports/junit-xml" />
+    <property name="user.home" value="C:\Users\YASIN" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="coverage.xml.dir" value="reports/cobertura-xml" />
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_144\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\YASIN\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Java\jre7\bin;c:\Program Files\Java\jdk1.7.0_55\bin;c:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;c:\Program Files (x86)\Skype\Phone\;c:\Program Files\TortoiseGit\bin;c:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin\;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner minicopier.TransferTask skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,c:\Users\YASIN\github\java_dummy01\cobertura_V1\reports\junit-xml\TEST-minicopier.TransferTask.xml crashfile=c:\Users\YASIN\github\java_dummy01\cobertura_V1\junitvmwatcher4117862828317109376.properties propsfile=c:\Users\YASIN\github\java_dummy01\cobertura_V1\junit1117316245528680654.properties" />
+    <property name="java.class.path" value="c:\Users\YASIN\github\java_dummy01\cobertura_V1\instrumented;c:\Users\YASIN\github\java_dummy01\develpment\classes;c:\Users\YASIN\github\java_dummy01\cobertura_V1\cobertura.jar;c:\Users\YASIN\github\java_dummy01\cobertura_V1\lib\asm-3.0.jar;c:\Users\YASIN\github\java_dummy01\cobertura_V1\lib\asm-tree-3.0.jar;c:\Users\YASIN\github\java_dummy01\cobertura_V1\lib\jakarta-oro-2.0.8.jar;c:\Users\YASIN\github\java_dummy01\cobertura_V1\lib\junit-4.11.jar;c:\Users\YASIN\github\java_dummy01\cobertura_V1\lib\log4j-1.2.9.jar;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-launcher.jar;c:\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant.jar;c:\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-junit.jar;c:\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\YASIN\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="instrumented.dir" value="instrumented" />
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="c:\Users\YASIN\github\java_dummy01\cobertura_V1" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="c:\Users\YASIN\github\java_dummy01\cobertura_V1" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="c:\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="../development/src" />
+    <property name="ant.project.invoked-targets" value="coverage" />
+  </properties>
+  <error message="Expecting a stackmap frame at branch target 1003&#xa;Exception Details:&#xa;  Location:&#xa;    minicopier/TransferTask.run()V @74: ldc&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: 033c 11ff ff3d 121b 1100 60b8 0021 014e&#xa;    0x0000010: 121b 1100 61b8 0021 013a 0412 1b11 0064&#xa;    0x0000020: b800 2112 7636 0512 1b11 0066 b800 212a&#xa;    0x0000030: b400 262a b400 4ab6 007c 121b 1100 67b8&#xa;    0x0000040: 0021 2ab4 0026 09b6 007f 121b 1100 6bb8&#xa;    0x0000050: 0021 2ab4 0038 b600 8457 121b 1100 6db8&#xa;    0x0000060: 0021 2ab4 0033 b600 8757 121b 1100 70b8&#xa;    0x0000070: 0021 bb00 8959 bb00 8b59 2ab4 002e b700&#xa;    0x0000080: 8eb7 0091 4e12 1b11 0071 b800 21bb 0093&#xa;    0x0000090: 592a b400 332a b400 40b6 006c b700 963a&#xa;    0x00000a0: 0412 1b11 0073 b800 212a b400 40b6 006c&#xa;    0x00000b0: 1100 733c 1100 003d 9900 bf1b 1100 73a0&#xa;    0x00000c0: 0016 1c11 0000 a000 0f12 1b1b 1c04 b800&#xa;    0x00000d0: 9a11 ffff 3d12 1b11 0075 b800 212a b400&#xa;    0x00000e0: 33b6 009d 3706 121b 1100 77b8 0021 2d16&#xa;    0x00000f0: 06b6 00a1 3708 121b 1100 7bb8 0021 1608&#xa;    0x0000100: 1606 9411 007b 3c11 0000 3d99 004b 1b11&#xa;    0x0000110: 007b a000 161c 1100 00a0 000f 121b 1b1c&#xa;    0x0000120: 04b8 009a 11ff ff3d 121b 1100 7cb8 0021&#xa;    0x0000130: bb00 8959 bb00 8b59 2ab4 002e b700 8eb7&#xa;    0x0000140: 0091 4e12 1b11 007d b800 212d 1606 b600&#xa;    0x0000150: a137 08a7 ffa3 1c9b 000f 121b 1b1c 03b8&#xa;    0x0000160: 009a 11ff ff3d 121b 1100 80b8 0021 2ab4&#xa;    0x0000170: 0026 1608 b600 a41c 9b00 0f12 1b1b 1c03&#xa;    0x0000180: b800 9a11 ffff 3d12 1b11 0084 b800 2115&#xa;    0x0000190: 05bc 083a 061c 9b00 0f12 1b1b 1c03 b800&#xa;    0x00001a0: 9a11 ffff 3d12 1b11 0087 b800 212d 1906&#xa;    0x00001b0: b600 aa59 3607 0211 0087 3c11 0000 3d9f&#xa;    0x00001c0: 01a1 1b11 0087 a000 161c 1100 00a0 000f&#xa;    0x00001d0: 121b 1b1c 04b8 009a 11ff ff3d 121b 1100&#xa;    0x00001e0: 88b8 0021 1904 1906 0315 07b6 00ae 121b&#xa;    0x00001f0: 1100 8ab8 0021 2ab4 0026 1507 85b6 00a4&#xa;    0x0000200: 121b 1100 8cb8 0021 2ab4 0042 b600 6c11&#xa;    0x0000210: 008c 3c11 0000 3d99 0099 1b11 008c a000&#xa;    0x0000220: 161c 1100 00a0 000f 121b 1b1c 04b8 009a&#xa;    0x0000230: 11ff ff3d 121b 1100 8db8 0021 2a59 3a08&#xa;    0x0000240: c212 1b11 008f b800 212a b400 2604 b600&#xa;    0x0000250: b012 1b11 0090 b800 21b2 00b6 12b8 b600&#xa;    0x0000260: be12 1b11 0091 b800 212a b600 c112 1b11&#xa;    0x0000270: 0092 b800 212a b400 2603 b600 b012 1b11&#xa;    0x0000280: 0093 b800 21b2 00b6 12c3 b600 be12 1b11&#xa;    0x0000290: 0095 b800 21a7 0005 3a09 121b 1100 96b8&#xa;    0x00002a0: 0021 1908 c3a7 000b 3a0a 1908 c319 0abf&#xa;    0x00002b0: 1c9b 000f 121b 1b1c 03b8 009a 11ff ff3d&#xa;    0x00002c0: 121b 1100 9ab8 0021 2ab4 0044 b600 6c11&#xa;    0x00002d0: 009a 3c11 0000 3d99 febe 1b11 009a a000&#xa;    0x00002e0: 161c 1100 00a0 000f 121b 1b1c 04b8 009a&#xa;    0x00002f0: 11ff ff3d 121b 1100 acb8 0021 2db6 00c6&#xa;    0x0000300: 121b 1100 afb8 0021 a700 1d12 1b11 00ad&#xa;    0x0000310: b800 213a 0812 1b11 00ae b800 21b2 00b6&#xa;    0x0000320: 12c8 b600 be12 1b11 00b1 b800 2119 04b6&#xa;    0x0000330: 00c9 121b 1100 b4b8 0021 a700 1d12 1b11&#xa;    0x0000340: 00b2 b800 213a 0812 1b11 00b3 b800 21b2&#xa;    0x0000350: 00b6 12cb b600 be12 1b11 009b b800 21b1&#xa;    0x0000360: 1c9b 000f 121b 1b1c 03b8 009a 11ff ff3d&#xa;    0x0000370: 121b 1100 a1b8 0021 2a04 b500 4e12 1b11&#xa;    0x0000380: 00ac b800 212d b600 c612 1b11 00af b800&#xa;    0x0000390: 21a7 001d 121b 1100 adb8 0021 3a06 121b&#xa;    0x00003a0: 1100 aeb8 0021 b200 b612 c8b6 00be 121b&#xa;    0x00003b0: 1100 b1b8 0021 1904 b600 c912 1b11 00b4&#xa;    0x00003c0: b800 21a7 01a0 121b 1100 b2b8 0021 3a06&#xa;    0x00003d0: 121b 1100 b3b8 0021 b200 b612 cbb6 00be&#xa;    0x00003e0: 121b 1100 b5b8 0021 a701 7b12 1b11 00a4&#xa;    0x00003f0: b800 213a 0612 1b11 00ac b800 212d b600&#xa;    0x0000400: c612 1b11 00af b800 21a7 001d 121b 1100&#xa;    0x0000410: adb8 0021 3a06 121b 1100 aeb8 0021 b200&#xa;    0x0000420: b612 c8b6 00be 121b 1100 b1b8 0021 1904&#xa;    0x0000430: b600 c912 1b11 00b4 b800 21a7 0128 121b&#xa;    0x0000440: 1100 b2b8 0021 3a06 121b 1100 b3b8 0021&#xa;    0x0000450: b200 b612 cbb6 00be 121b 1100 b5b8 0021&#xa;    0x0000460: a701 0312 1b11 00a6 b800 213a 0612 1b11&#xa;    0x0000470: 00a7 b800 21b2 00b6 12cd b600 be12 1b11&#xa;    0x0000480: 00ac b800 212d b600 c612 1b11 00af b800&#xa;    0x0000490: 21a7 001d 121b 1100 adb8 0021 3a06 121b&#xa;    0x00004a0: 1100 aeb8 0021 b200 b612 c8b6 00be 121b&#xa;    0x00004b0: 1100 b1b8 0021 1904 b600 c912 1b11 00b4&#xa;    0x00004c0: b800 21a7 00a0 121b 1100 b2b8 0021 3a06&#xa;    0x00004d0: 121b 1100 b3b8 0021 b200 b612 cbb6 00be&#xa;    0x00004e0: 121b 1100 b5b8 0021 a700 7b12 1b11 00ab&#xa;    0x00004f0: b800 213a 0b12 1b11 00ac b800 212d b600&#xa;    0x0000500: c612 1b11 00af b800 21a7 001d 121b 1100&#xa;    0x0000510: adb8 0021 3a0c 121b 1100 aeb8 0021 b200&#xa;    0x0000520: b612 c8b6 00be 121b 1100 b1b8 0021 1904&#xa;    0x0000530: b600 c912 1b11 00b4 b800 21a7 001d 121b&#xa;    0x0000540: 1100 b2b8 0021 3a0c 121b 1100 b3b8 0021&#xa;    0x0000550: b200 b612 cbb6 00be 121b 1100 b4b8 0021&#xa;    0x0000560: 190b bf12 1b11 00b7 b800 21b1          &#xa;  Exception Handler Table:&#xa;    bci [577, 653] =&gt; handler: 664&#xa;    bci [577, 677] =&gt; handler: 680&#xa;    bci [680, 685] =&gt; handler: 680&#xa;    bci [730, 768] =&gt; handler: 779&#xa;    bci [805, 818] =&gt; handler: 829&#xa;    bci [893, 905] =&gt; handler: 916&#xa;    bci [942, 955] =&gt; handler: 966&#xa;    bci [74, 730] =&gt; handler: 1003&#xa;    bci [864, 893] =&gt; handler: 1003&#xa;    bci [1013, 1025] =&gt; handler: 1036&#xa;    bci [1062, 1075] =&gt; handler: 1086&#xa;    bci [74, 730] =&gt; handler: 1123&#xa;    bci [864, 893] =&gt; handler: 1123&#xa;    bci [1149, 1161] =&gt; handler: 1172&#xa;    bci [1198, 1211] =&gt; handler: 1222&#xa;    bci [74, 730] =&gt; handler: 1259&#xa;    bci [864, 893] =&gt; handler: 1259&#xa;    bci [1003, 1013] =&gt; handler: 1259&#xa;    bci [1123, 1149] =&gt; handler: 1259&#xa;    bci [1269, 1281] =&gt; handler: 1292&#xa;    bci [1318, 1331] =&gt; handler: 1342&#xa;    bci [1259, 1269] =&gt; handler: 1259&#xa;  Stackmap Table:&#xa;    full_frame(@254,{Object[#2],Object[#137],Object[#147],Integer,Long,Long},{})&#xa;    same_frame_extended(@366)&#xa;    chop_frame(@399,2)&#xa;    append_frame(@429,Object[#166])&#xa;    full_frame(@664,{Object[#2],Object[#137],Object[#147],Integer,Object[#166],Integer,Object[#95]},{Object[#111]})&#xa;    same_frame(@674)&#xa;    same_locals_1_stack_item_frame(@680,Object[#100])&#xa;    chop_frame(@712,1)&#xa;    same_locals_1_stack_item_extended(@787,Object[#113])&#xa;    same_frame(@813)&#xa;    same_locals_1_stack_item_frame(@837,Object[#113])&#xa;    same_frame(@863)&#xa;    same_frame(@888)&#xa;    full_frame(@924,{Object[#2],Object[#137],Object[#147],Integer},{Object[#113]})&#xa;    same_frame(@950)&#xa;    same_locals_1_stack_item_frame(@974,Object[#113])&#xa;    same_locals_1_stack_item_frame(@1011,Object[#115])&#xa;    same_locals_1_stack_item_frame(@1044,Object[#113])&#xa;    same_frame(@1070)&#xa;    same_locals_1_stack_item_frame(@1094,Object[#113])&#xa;    same_locals_1_stack_item_frame(@1131,Object[#117])&#xa;    same_locals_1_stack_item_frame(@1180,Object[#113])&#xa;    same_frame(@1206)&#xa;    same_locals_1_stack_item_frame(@1230,Object[#113])&#xa;    same_locals_1_stack_item_frame(@1267,Object[#100])&#xa;    full_frame(@1300,{Object[#2],Object[#137],Object[#147],Integer,Top,Top,Top,Top,Top,Object[#100]},{Object[#113]})&#xa;    same_frame(@1326)&#xa;    same_locals_1_stack_item_frame(@1350,Object[#113])&#xa;    same_frame(@1376)&#xa;    full_frame(@1387,{Object[#2],Object[#137],Object[#147],Integer},{})&#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 1003
+Exception Details:
+  Location:
+    minicopier/TransferTask.run()V @74: ldc
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: 033c 11ff ff3d 121b 1100 60b8 0021 014e
+    0x0000010: 121b 1100 61b8 0021 013a 0412 1b11 0064
+    0x0000020: b800 2112 7636 0512 1b11 0066 b800 212a
+    0x0000030: b400 262a b400 4ab6 007c 121b 1100 67b8
+    0x0000040: 0021 2ab4 0026 09b6 007f 121b 1100 6bb8
+    0x0000050: 0021 2ab4 0038 b600 8457 121b 1100 6db8
+    0x0000060: 0021 2ab4 0033 b600 8757 121b 1100 70b8
+    0x0000070: 0021 bb00 8959 bb00 8b59 2ab4 002e b700
+    0x0000080: 8eb7 0091 4e12 1b11 0071 b800 21bb 0093
+    0x0000090: 592a b400 332a b400 40b6 006c b700 963a
+    0x00000a0: 0412 1b11 0073 b800 212a b400 40b6 006c
+    0x00000b0: 1100 733c 1100 003d 9900 bf1b 1100 73a0
+    0x00000c0: 0016 1c11 0000 a000 0f12 1b1b 1c04 b800
+    0x00000d0: 9a11 ffff 3d12 1b11 0075 b800 212a b400
+    0x00000e0: 33b6 009d 3706 121b 1100 77b8 0021 2d16
+    0x00000f0: 06b6 00a1 3708 121b 1100 7bb8 0021 1608
+    0x0000100: 1606 9411 007b 3c11 0000 3d99 004b 1b11
+    0x0000110: 007b a000 161c 1100 00a0 000f 121b 1b1c
+    0x0000120: 04b8 009a 11ff ff3d 121b 1100 7cb8 0021
+    0x0000130: bb00 8959 bb00 8b59 2ab4 002e b700 8eb7
+    0x0000140: 0091 4e12 1b11 007d b800 212d 1606 b600
+    0x0000150: a137 08a7 ffa3 1c9b 000f 121b 1b1c 03b8
+    0x0000160: 009a 11ff ff3d 121b 1100 80b8 0021 2ab4
+    0x0000170: 0026 1608 b600 a41c 9b00 0f12 1b1b 1c03
+    0x0000180: b800 9a11 ffff 3d12 1b11 0084 b800 2115
+    0x0000190: 05bc 083a 061c 9b00 0f12 1b1b 1c03 b800
+    0x00001a0: 9a11 ffff 3d12 1b11 0087 b800 212d 1906
+    0x00001b0: b600 aa59 3607 0211 0087 3c11 0000 3d9f
+    0x00001c0: 01a1 1b11 0087 a000 161c 1100 00a0 000f
+    0x00001d0: 121b 1b1c 04b8 009a 11ff ff3d 121b 1100
+    0x00001e0: 88b8 0021 1904 1906 0315 07b6 00ae 121b
+    0x00001f0: 1100 8ab8 0021 2ab4 0026 1507 85b6 00a4
+    0x0000200: 121b 1100 8cb8 0021 2ab4 0042 b600 6c11
+    0x0000210: 008c 3c11 0000 3d99 0099 1b11 008c a000
+    0x0000220: 161c 1100 00a0 000f 121b 1b1c 04b8 009a
+    0x0000230: 11ff ff3d 121b 1100 8db8 0021 2a59 3a08
+    0x0000240: c212 1b11 008f b800 212a b400 2604 b600
+    0x0000250: b012 1b11 0090 b800 21b2 00b6 12b8 b600
+    0x0000260: be12 1b11 0091 b800 212a b600 c112 1b11
+    0x0000270: 0092 b800 212a b400 2603 b600 b012 1b11
+    0x0000280: 0093 b800 21b2 00b6 12c3 b600 be12 1b11
+    0x0000290: 0095 b800 21a7 0005 3a09 121b 1100 96b8
+    0x00002a0: 0021 1908 c3a7 000b 3a0a 1908 c319 0abf
+    0x00002b0: 1c9b 000f 121b 1b1c 03b8 009a 11ff ff3d
+    0x00002c0: 121b 1100 9ab8 0021 2ab4 0044 b600 6c11
+    0x00002d0: 009a 3c11 0000 3d99 febe 1b11 009a a000
+    0x00002e0: 161c 1100 00a0 000f 121b 1b1c 04b8 009a
+    0x00002f0: 11ff ff3d 121b 1100 acb8 0021 2db6 00c6
+    0x0000300: 121b 1100 afb8 0021 a700 1d12 1b11 00ad
+    0x0000310: b800 213a 0812 1b11 00ae b800 21b2 00b6
+    0x0000320: 12c8 b600 be12 1b11 00b1 b800 2119 04b6
+    0x0000330: 00c9 121b 1100 b4b8 0021 a700 1d12 1b11
+    0x0000340: 00b2 b800 213a 0812 1b11 00b3 b800 21b2
+    0x0000350: 00b6 12cb b600 be12 1b11 009b b800 21b1
+    0x0000360: 1c9b 000f 121b 1b1c 03b8 009a 11ff ff3d
+    0x0000370: 121b 1100 a1b8 0021 2a04 b500 4e12 1b11
+    0x0000380: 00ac b800 212d b600 c612 1b11 00af b800
+    0x0000390: 21a7 001d 121b 1100 adb8 0021 3a06 121b
+    0x00003a0: 1100 aeb8 0021 b200 b612 c8b6 00be 121b
+    0x00003b0: 1100 b1b8 0021 1904 b600 c912 1b11 00b4
+    0x00003c0: b800 21a7 01a0 121b 1100 b2b8 0021 3a06
+    0x00003d0: 121b 1100 b3b8 0021 b200 b612 cbb6 00be
+    0x00003e0: 121b 1100 b5b8 0021 a701 7b12 1b11 00a4
+    0x00003f0: b800 213a 0612 1b11 00ac b800 212d b600
+    0x0000400: c612 1b11 00af b800 21a7 001d 121b 1100
+    0x0000410: adb8 0021 3a06 121b 1100 aeb8 0021 b200
+    0x0000420: b612 c8b6 00be 121b 1100 b1b8 0021 1904
+    0x0000430: b600 c912 1b11 00b4 b800 21a7 0128 121b
+    0x0000440: 1100 b2b8 0021 3a06 121b 1100 b3b8 0021
+    0x0000450: b200 b612 cbb6 00be 121b 1100 b5b8 0021
+    0x0000460: a701 0312 1b11 00a6 b800 213a 0612 1b11
+    0x0000470: 00a7 b800 21b2 00b6 12cd b600 be12 1b11
+    0x0000480: 00ac b800 212d b600 c612 1b11 00af b800
+    0x0000490: 21a7 001d 121b 1100 adb8 0021 3a06 121b
+    0x00004a0: 1100 aeb8 0021 b200 b612 c8b6 00be 121b
+    0x00004b0: 1100 b1b8 0021 1904 b600 c912 1b11 00b4
+    0x00004c0: b800 21a7 00a0 121b 1100 b2b8 0021 3a06
+    0x00004d0: 121b 1100 b3b8 0021 b200 b612 cbb6 00be
+    0x00004e0: 121b 1100 b5b8 0021 a700 7b12 1b11 00ab
+    0x00004f0: b800 213a 0b12 1b11 00ac b800 212d b600
+    0x0000500: c612 1b11 00af b800 21a7 001d 121b 1100
+    0x0000510: adb8 0021 3a0c 121b 1100 aeb8 0021 b200
+    0x0000520: b612 c8b6 00be 121b 1100 b1b8 0021 1904
+    0x0000530: b600 c912 1b11 00b4 b800 21a7 001d 121b
+    0x0000540: 1100 b2b8 0021 3a0c 121b 1100 b3b8 0021
+    0x0000550: b200 b612 cbb6 00be 121b 1100 b4b8 0021
+    0x0000560: 190b bf12 1b11 00b7 b800 21b1          
+  Exception Handler Table:
+    bci [577, 653] =&gt; handler: 664
+    bci [577, 677] =&gt; handler: 680
+    bci [680, 685] =&gt; handler: 680
+    bci [730, 768] =&gt; handler: 779
+    bci [805, 818] =&gt; handler: 829
+    bci [893, 905] =&gt; handler: 916
+    bci [942, 955] =&gt; handler: 966
+    bci [74, 730] =&gt; handler: 1003
+    bci [864, 893] =&gt; handler: 1003
+    bci [1013, 1025] =&gt; handler: 1036
+    bci [1062, 1075] =&gt; handler: 1086
+    bci [74, 730] =&gt; handler: 1123
+    bci [864, 893] =&gt; handler: 1123
+    bci [1149, 1161] =&gt; handler: 1172
+    bci [1198, 1211] =&gt; handler: 1222
+    bci [74, 730] =&gt; handler: 1259
+    bci [864, 893] =&gt; handler: 1259
+    bci [1003, 1013] =&gt; handler: 1259
+    bci [1123, 1149] =&gt; handler: 1259
+    bci [1269, 1281] =&gt; handler: 1292
+    bci [1318, 1331] =&gt; handler: 1342
+    bci [1259, 1269] =&gt; handler: 1259
+  Stackmap Table:
+    full_frame(@254,{Object[#2],Object[#137],Object[#147],Integer,Long,Long},{})
+    same_frame_extended(@366)
+    chop_frame(@399,2)
+    append_frame(@429,Object[#166])
+    full_frame(@664,{Object[#2],Object[#137],Object[#147],Integer,Object[#166],Integer,Object[#95]},{Object[#111]})
+    same_frame(@674)
+    same_locals_1_stack_item_frame(@680,Object[#100])
+    chop_frame(@712,1)
+    same_locals_1_stack_item_extended(@787,Object[#113])
+    same_frame(@813)
+    same_locals_1_stack_item_frame(@837,Object[#113])
+    same_frame(@863)
+    same_frame(@888)
+    full_frame(@924,{Object[#2],Object[#137],Object[#147],Integer},{Object[#113]})
+    same_frame(@950)
+    same_locals_1_stack_item_frame(@974,Object[#113])
+    same_locals_1_stack_item_frame(@1011,Object[#115])
+    same_locals_1_stack_item_frame(@1044,Object[#113])
+    same_frame(@1070)
+    same_locals_1_stack_item_frame(@1094,Object[#113])
+    same_locals_1_stack_item_frame(@1131,Object[#117])
+    same_locals_1_stack_item_frame(@1180,Object[#113])
+    same_frame(@1206)
+    same_locals_1_stack_item_frame(@1230,Object[#113])
+    same_locals_1_stack_item_frame(@1267,Object[#100])
+    full_frame(@1300,{Object[#2],Object[#137],Object[#147],Integer,Top,Top,Top,Top,Top,Object[#100]},{Object[#113]})
+    same_frame(@1326)
+    same_locals_1_stack_item_frame(@1350,Object[#113])
+    same_frame(@1376)
+    full_frame(@1387,{Object[#2],Object[#137],Object[#147],Integer},{})
+
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
